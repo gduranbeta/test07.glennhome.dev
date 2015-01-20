@@ -309,6 +309,10 @@ function twentyfifteen_search_form_modify( $html ) {
 }
 add_filter( 'get_search_form', 'twentyfifteen_search_form_modify' );
 
+function foo() {
+	return false;
+}
+
 /**
  * Implement the Custom Header feature.
  *
